@@ -66,7 +66,8 @@ semver = "1.0.25"
 
 # Temporary pins to work around downstream issues
 # https://github.com/apache/arrow-rs/commit/2fddf85afcd20110ce783ed5b4cdeb82293da30b
-chrono = "=0.4.39"
+# update to 0.4.40 due to conflicts with other versions
+chrono = "0.4.40"
 # https://github.com/RustCrypto/formats/issues/1684
 base64ct = "=1.6.0"
 
